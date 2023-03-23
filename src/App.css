@@ -366,3 +366,7 @@ span{
   line-height: 1.8;
   font-size: 22px;
 }
+
+.social_links a{
+  margin-left: 1%;
+}

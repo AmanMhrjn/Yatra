@@ -1,5 +1,8 @@
 import React from 'react';
-import Contactimg from '../images/images/contact.png'
+import Contactimg from '../images/images/contact.png';
+import Facebook from '../images/images/facebook.png';
+import Linkedln from '../images/images/linked.png';
+import Instragram from '../images/images/instragram.png';
 
 export default function Contact(){
     return(
@@ -24,11 +27,11 @@ export default function Contact(){
                                 <p className='conttext'>yatrainfosys@gmail.com</p> 
 
                             <p className='contheadname'>Socials</p> 
-                                <a href="#"><img src="" /></a> 
-                                <a href="#"><img src="" /></a>
-                                <a href="#"><img src="" /></a>
-                                <a href="#"><img src="" /></a>
-                                <a href="#"><img src="" /></a>
+                            <div className='social_links'>
+                                <a href=""><img src={Facebook}/></a>
+                                <a href=""><img src={Instragram}/></a>
+                                <a href=""><img src={Linkedln}/></a>
+                            </div>
                         </div>
                     </div>
                 </div>
