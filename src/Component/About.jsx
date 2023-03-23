@@ -1,5 +1,7 @@
 import React from 'react';
-import aboutimg from '../images/images/aboutBook.png';
+import Imageanimation from './Imageanimation';
+// import aboutimg from '../images/images/aboutBook.png';
+
 
 export default function About(){
     return(
@@ -7,7 +9,8 @@ export default function About(){
             <div className="abutus" id='about'>
                 <div className="abtcontainer">
                     <div className="abtimg">
-                        <img src={aboutimg} width="100px" height="100px" />
+                        {/* <img src={aboutimg} width="100px" height="100px" /> */}
+                        <Imageanimation/>
                     </div>
                     <p className='heading'> ABOUT <span>YATRA</span></p>
                     <p className='abuttext'>
